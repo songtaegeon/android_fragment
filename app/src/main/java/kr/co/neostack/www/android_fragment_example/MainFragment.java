@@ -37,9 +37,6 @@ public class MainFragment extends Fragment {
         // fragment_main 파일과 MainFragment와 연결 해준다.
         // 인플레이션 과정을 통해서 받을 수 있다.
 
-
-        // 버튼2 -> 버튼 으로 만든다음에 인플레이션이 되고나서 메모리가 되니까 find에서 찾을 수 있다.
-
         Button button = (Button) rootview.findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
             // 요청을 보내야 하는데 메인 액티비티에 다가 메소드를 하나 만들어야 한다.
